@@ -85,12 +85,12 @@ us-counties.csv: https://github.com/nytimes/covid-19-data
 
 ## Technologies Used
 + **Python** - Primary coding language used for this project
-+ **VS Code** - Used as the main code editor for managaing files, running scripts, and editing notebooks
++ **VS Code** - Used as the main code editor for managing files, running scripts, and editing notebooks
 + **Jupyter Notebook** - Used to create code, equations, visualizations, and explanatory text
-+ **Pandas** - Used to load, clean, and manipulate data acros multiple datasets
++ **Pandas** - Used to load, clean, and manipulate data across multiple datasets
 + **SQLite (sqlite3)** - Enabled SQL based joins for cleaner merging of data tables
 + **Matplotlip** - Created clear visualizations from the cleaned data for analysis
 + **OpenPyXL** - Enabled to read .xlsx Excel files
 + **xlrd** - Enabled to read older .xls Excel files
 + **Git** - Used for version control to track changes to code and manage development history
-+ **GitHub** - Used to store and share the project repository, amking the code and documentation accessible for review and collaboration.
++ **GitHub** - Used to store and share the project repository, making the code and documentation accessible for review and collaboration.
