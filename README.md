@@ -18,7 +18,7 @@ This analysis compares COVID-19 cases and deaths across all Kentucky counties, g
 | **Command** |           **Windows**                 |            **Linux/Mac**             | 
 | ----------  | ------------------------------------- | ------------------------------------ |
 |  Create     |    `python -m venv venv`                |   `python3 -m venv venv`               |
-|  Activate   |    `source env/Scripts/activate`      |   `source env/bin/activate`          |
+|  Activate   |    `source venv/Scripts/activate`      |   `source venv/bin/activate`          |
 |  Install    |    `pip install -r requirements.txt`  |   `pip install -r requirements.txt`  |
 |  Deactivate |    `deactivate`                       |   `deactivate`                       |
 
