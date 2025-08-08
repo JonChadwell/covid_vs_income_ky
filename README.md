@@ -17,7 +17,7 @@ This analysis compares COVID-19 cases and deaths across all Kentucky counties, g
 ## Virtual Environment Commands 
 | **Command** |           **Windows**                 |            **Linux/Mac**             | 
 | ----------  | ------------------------------------- | ------------------------------------ |
-|  Create     |    `python -m env env`                |   `python3 -m env env`               |
+|  Create     |    `python -m venv venv`                |   `python3 -m venv venv`               |
 |  Activate   |    `source env/Scripts/activate`      |   `source env/bin/activate`          |
 |  Install    |    `pip install -r requirements.txt`  |   `pip install -r requirements.txt`  |
 |  Deactivate |    `deactivate`                       |   `deactivate`                       |
@@ -25,7 +25,7 @@ This analysis compares COVID-19 cases and deaths across all Kentucky counties, g
 
 
 ## Project Overview
-This project explores the relationship between median household income and COVID-19 impact across Kentucky counties. By merging datasets on county-level COVID-19 cases, deaths, and income levels, the project analyzes whether lower-income areas experienced higher case and death rates from 2020-2022. This project intends to:
+This project explores the relationship between median household income and COVID-19 impact across Kentucky counties. By merging datasets on a county level COVID-19 cases, deaths, and income levels, the project analyzes whether lower-income areas experienced higher case and death rates from 2020-2022. This project intends to:
 
 + Clean and prepare the data to confirm it's accurate, consistent, and ready to analyze
 + Combine three different datasets using a shared column (county name) to bring all the data together.
@@ -43,7 +43,11 @@ Through data cleaning and SQLite merging, each county’s COVID-19 data was matc
 **Key Findings:**
 
 + Kentucky counties with different income tiers experienced varying COVID-19 case and death rates per 1,000 residents.
-+ On average, counties in the low-income tier had the highest case rate (125.56 cases per 1,000 people), followed by middle-income counties (103.74), and high-income counties (100.99).
++ On average, counties in the low-income tier had the highest case rate, followed by middle-income counties, and then high-income counties.
++ COVID-19 case rates per 1,000 people showed a similar trend:
+    + Low-income counties: 125.56 cases per 1,000
+    + Middle-income counties: 103.74 cases per 1,000
+    + High-income counties: 100.99 cases per 1,000
 + COVID-19 death rates per 1,000 people showed a similar trend:
     + Low-income counties: 1.93 deaths per 1,000
     + Middle-income counties: 1.58 deaths per 1,000
@@ -55,14 +59,16 @@ However, the project does not establish causation and does not account for facto
 
 ## Data Summary
 
+Median Income Data: 31 columns, 3,195 rows   
 COVID-19 Data: 6 columns, 2,502,831 rows  
-Median Income Data: 31 columns, 3,195 rows  
 Population Data: 7 columns, 126 rows
 
 ## Data Source
 
 ky_median_income_us_2020.xls: https://www.census.gov/data/datasets/2020/demo/saipe/2020-state-and-county.html 
-ky_pandemic_population.xlsx: https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html  
+
+ky_pandemic_population.xlsx: https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html
+
 us-counties.csv: https://github.com/nytimes/covid-19-data  
 
 
