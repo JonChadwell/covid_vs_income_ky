@@ -44,7 +44,7 @@ Through data cleaning and SQLite merging, each county’s COVID-19 data was matc
 
 + Kentucky counties with different income tiers experienced varying COVID-19 case and death rates per 1,000 residents.
 + On average, counties in the low-income tier had the highest case rate, followed by middle-income counties, and then high-income counties.
-+ COVID-19 case rates per 1,000 people showed a similar trend:
++ COVID-19 case rates per 1,000 people:
     + Low-income counties: 125.56 cases per 1,000
     + Middle-income counties: 103.74 cases per 1,000
     + High-income counties: 100.99 cases per 1,000
